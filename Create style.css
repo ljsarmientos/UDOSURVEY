@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  background-color:#d6c594 ;
+}
+
+/* ENCABEZADO */
+header {
+  padding: 1rem;
+  background-color: lightblue;
+  margin-top: 80px;
+}
+
+.main-header {
+  background-color: #ca7712;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main-header h5 {
+  color: black;
+}
+
+
+/* BARRA DE NAVEGACION */
+
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  padding: 1rem;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+.nav-links {
+  Margin-left: 45px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16rem;
+  text-align: center;
+
+
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+}
+
+/* PRIMERA SECCION */
+.section-container {
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 0rem;
+  background-color: #d6c594;
+  padding: 0.5rem;
+  position: absolute;
+  top: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: center;
+
+}
+
+
+.section-container h1 {
+  color: black;
+  font-family: 'Madimi One', status-bar;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-container h3 {
+  color: black;
+  font-family: 'Madimi One', subpixel-antialiased;
+}
+
+.section-container p {
+  color: black;
+  font-family: subpixel-antialiased;
+}
+
+
+
+
+/* SECCION DOS*/
+.section-container2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 0rem;
+  background-color: #d6c594;
+  padding: 0.5rem;
+  position: absolute;
+  top: 24.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: center;
+
+}
+
+
+
+
+
+.section-container2 h1 {
+  color: black;
+  font-family: 'Madimi One', status-bar;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-container2 ul {
+  color: black;
+  font-family: 'Madimi One', subpixel-antialiased;
+
+}
+
+
+/* seccion 3 */
+.section-container3 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+  background-color: #969696;
+  padding: 0.5rem;
+  position: absolute;
+  top: 32rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: center;
+
+}
+
+.section-container3 h1 {
+  color: #000000;
+  font-family: 'Madimi One', status-bar;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.section-container3 p {
+  color: #171717;
+  font-family: subpixel-antialiased;
+}
+
+.section-container3 ul {
+  color: black;
+  font-family: 'Madimi One', subpixel-antialiased;
+
+}
+
+.section-container3 p2 {
+  color: black;
+  font-family: subpixel-antialiased;
+}
+
+.section-container3 p3 {
+  color: black;
+  font-family: subpixel-antialiased;
+}
+
+.btn {
+  background-color: #ffd700;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link a:hover {
+  color: #ffd700;
+}
+
+/* FOOTER */
+.footer {
+  justify-content: space-between;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 0.5rem;
+
+  color: black;
+  gap: 0rem;
+  background-color: #ca7712;
+  position: absolute;
+  top: 45rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+
+}
+
+.footer-col h3 {
+  top: 40rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.footer-col h3 span {
+  color: var(--primary-color);
+}
+
+.footer-col p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-col p:hover {
+  color: var(--primary-color);
+}
+
+.footer-col p span {
+  font-weight: 600;
+
+}
+
+.footer-col h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+
+
+}
+
+.footer-bar {
+  top: 40rem;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  border-top: 1px solid var(--text-light);
+}
